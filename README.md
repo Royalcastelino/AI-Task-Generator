@@ -44,7 +44,7 @@ task-generator/
 └── README.md
 ```
 
-## ⚙️ Installation & Running
+## Installation & Running
 
 ### Prerequisites
 - Node.js (v18+)
@@ -71,7 +71,7 @@ task-generator/
    ```
 4. Run `npm run dev`
 
-## 🚢 Deployment Instructions
+## Deployment Instructions
 
 ### Backend (Render)
 1. Connect your GitHub repository to Render.
