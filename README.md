@@ -70,23 +70,3 @@ task-generator/
    VITE_API_URL=http://localhost:5000/api
    ```
 4. Run `npm run dev`
-
-## Deployment Instructions
-
-### Backend (Render)
-1. Connect your GitHub repository to Render.
-2. Choose "Web Service" and select the `backend` directory.
-3. Set Build Command: `npm install`
-4. Set Start Command: `npm start`
-5. Add Environment Variables from your `.env`.
-
-### Database (MongoDB Atlas)
-1. Create a free cluster on MongoDB Atlas.
-2. In "Network Access", allow your server's IP (or 0.0.0.0/0 for testing).
-3. Copy the Connection String and add it to your backend environment variables.
-
-### Frontend (Vercel)
-1. Connect your GitHub repository to Vercel.
-2. Select the `frontend` directory as the project root.
-3. Vercel will automatically detect Vite.
-4. Add the `VITE_API_URL` environment variable pointing to your deployed Backend URL.
